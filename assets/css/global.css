@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.images img{
+    height: 250px;
+    width: 550px;
+
+}
+.images{
+    background-color: rgb(0, 225, 255);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    justify-self: center;
+}    
+footer article{
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+
+}
