@@ -25,5 +25,43 @@ footer article{
     height: 250px;
     width: 250px;
     border-radius: 20px;
+}    
 
+main .mainSection {
+    background-color: #b2bbc3;
+}
+
+main .mainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    gap: 20px;
+}
+
+main .gridContainer {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 20px;
+    height: 160px;
+}
+.gridContainer p {
+    padding: 5px;
+    background-color: aquamarine;
+    margin: 10px;
+    border-radius: 20px;
+}
+main .mainSection .mainContainer_div {
+    background-color: blue;
+    height: 80px;
+    width: 50%;
+    padding: 5px;
+    border-radius: 20px;
 }
